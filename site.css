@@ -29,11 +29,11 @@
   gap: 16px;
   padding: 0 4%;
 }
-.header-contact { display: block; margin: 0; text-align: center; }
+.header-contact { display: block; margin: 0; text-align: center; container-type: inline-size; }
 .market-heading {
   margin: 0;
   color: var(--white);
-  font: 700 clamp(20px, 2.15vw, 36px)/1.12 "Barlow Condensed", Arial, sans-serif;
+  font: 700 min(24px, 2.85cqi)/1.12 "Barlow Condensed", Arial, sans-serif;
 }
 .header-faith { align-self: stretch; text-align: center; min-width: 0; }
 .header-faith .faith-art { width: 100%; height: clamp(74px, 9vw, 136px); margin: 0; }
@@ -46,10 +46,9 @@
   .brand span { font-size: clamp(21px, 3vw, 30px); }
   .brand img { width: 42px; }
 }
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .masthead { grid-template-columns: 1fr 1fr; gap: 8px 16px; }
   .header-contact { grid-column: 1 / -1; grid-row: 2; padding: 8px 0 16px; }
-  .market-heading { font-size: clamp(20px, 4vw, 28px); }
 }
 
 
@@ -69,6 +68,7 @@
 }
 
 .matthew-portrait {
+  object-view-box: inset(4% 10% 39.75% 10%);
   object-position: center 18%;
 }
 
@@ -77,3 +77,6 @@
 @media (min-width: 651px) {
   #leadership .leader .eyebrow { min-height: 3em; }
 }
+
+.market-heading { white-space: nowrap; }
+.header-contact a { font: 700 min(24px, 2.85cqi)/1.12 "Barlow Condensed", Arial, sans-serif; letter-spacing: normal; }
