@@ -1,0 +1,9 @@
+Hyperscale redesign media sources
+Welding video and poster: https://www.pexels.com/video/man-welding-metal-piece-6467725/
+Pipe manufacturing: https://www.pexels.com/photo/large-industrial-workshop-with-steel-pipe-manufacturing-29842696/
+Industrial piping: https://www.pexels.com/photo/low-angle-shot-of-a-building-exterior-with-pipes-15165682/
+Refinery: https://www.pexels.com/photo/a-photo-of-an-industrial-business-4883682/
+Pexels license: https://www.pexels.com/license/
+Data center and power images: retained from the existing Hyperscale website.
+Cross artwork: AI-generated from the business card supplied by Marcus Dygert.
+The stock imagery illustrates service environments. It is not presented as completed Hyperscale projects.
