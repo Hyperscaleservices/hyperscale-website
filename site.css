@@ -33,7 +33,7 @@
 .market-heading {
   margin: 0;
   color: var(--white);
-  font: 700 clamp(24px, 3.2vw, 55px)/1 "Barlow Condensed", Arial, sans-serif;
+  font: 700 clamp(20px, 2.15vw, 36px)/1.12 "Barlow Condensed", Arial, sans-serif;
 }
 .header-faith { align-self: stretch; text-align: center; min-width: 0; }
 .header-faith .faith-art { width: 100%; height: clamp(74px, 9vw, 136px); margin: 0; }
@@ -49,15 +49,9 @@
 @media (max-width: 760px) {
   .masthead { grid-template-columns: 1fr 1fr; gap: 8px 16px; }
   .header-contact { grid-column: 1 / -1; grid-row: 2; padding: 8px 0 16px; }
-  .market-heading { font-size: clamp(25px, 5vw, 38px); }
+  .market-heading { font-size: clamp(20px, 4vw, 28px); }
 }
 
-.executive-bio { grid-column: 1 / -1; }
-.executive-bio > p:not(.eyebrow), .executive-bio ul { max-width: 78ch; }
-.executive-bio h4 { font-size: 18px; margin-bottom: 12px; }
-.executive-bio ul { padding-left: 20px; color: var(--muted); line-height: 1.6; }
-.executive-bio li + li { margin-top: 12px; }
-.executive-bio strong { color: var(--white); }
 
 .executive-portrait {
   width: 100%;
@@ -66,19 +60,7 @@
   object-fit: cover;
   margin-bottom: 20px;
 }
-.executive-bio .executive-portrait {
-  float: right;
-  width: min(38%, 440px);
-  margin: 0 0 24px 32px;
-}
-.executive-bio { display: flow-root; }
-@media (max-width: 760px) {
-  .executive-bio .executive-portrait {
-    float: none;
-    width: min(100%, 440px);
-    margin: 0 0 20px;
-  }
-}
+
 
 .homepage-portrait {
   aspect-ratio: 4 / 5;
@@ -91,3 +73,7 @@
 }
 
 .footer-top .veteran-label, .leader .veteran-label { color: #c5ddfa; font-weight: 600; margin-top: 8px; }
+
+@media (min-width: 651px) {
+  #leadership .leader .eyebrow { min-height: 3em; }
+}
